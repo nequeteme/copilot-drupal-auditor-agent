@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="drupal10-custom">
+  <description>PHP CodeSniffer configuration for Drupal project</description>
+
+  <rule ref="Drupal">
+    <exclude name="Drupal.CSS.ClassDefinitionNameSpacing"/>
+    <exclude name="Drupal.CSS.ColourDefinition"/>
+  </rule>
+  <rule ref="DrupalPractice"/>
+  
+  <file>web/modules/custom</file>
+  <file>web/themes/custom</file>
+
+  <rule ref="Generic.PHP.Syntax"/>
+  
+  <arg name="extensions" value="php,module,inc,install,test,profile,theme,engine"/>
+  <arg value="p"/>
+  <arg name="colors"/>
+</ruleset>
