@@ -22,3 +22,11 @@ phpcs -i
 # Expected output: The installed coding standards are MySource, PEAR, PSR1, PSR2, PSR12, Squiz, Zend, Drupal and DrupalPractice
 
 ```
+
+# Quick Usage
+- Open the file
+- Press Ctrl+Shift+P → "Tasks: Run Task"
+- Select: "PHPCS: Check current file"
+- Copy the errors of the terminal
+- Open Chat of copilot and select the agent "drupal-auditor-agent"
+- Paste the error and continue
