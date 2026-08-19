@@ -30,3 +30,7 @@ phpcs -i
 - Copy the errors of the terminal
 - Open Chat of copilot and select the agent "drupal-auditor-agent"
 - Paste the error and continue
+
+# Upgrade
+By reading, watching courses, and experimenting, I created a harness engineer AI for Drupal; this is the URL.
+https://github.com/nequeteme/agent-harness-drupal
